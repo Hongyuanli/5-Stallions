@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<div id="SocialMedia">
+		<a href="https://twitter.com/bluetapesociety" target="_blank"><img src="images/twitter.png"/></a>
+		<a href="https://www.instagram.com/bluetapesociety/" target="_blank"><img src="images/insta.png" /></a>
+		<a href="https://www.facebook.com/bluetapesociety/" target="_blank"><img src="images/facebook.png"/></a>
+	</div>
+<head>
+	<link type="text/css" rel="stylesheet" href="MainCss.css"/>
+	<title>Blue Tape Society</title>
+	<center><a href="home.html"><img src="images/logo.png"/></a></center>
+
+	<div id="NavBar">
+		<center><ul>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Submission.html">Submission</a></li>
+			<li class="dropdown"><a href="Events.html">Events</a>
+				<div class="dropdown-content">
+					<a href="Upcoming.html">Upcoming</a>
+					<a href="Past.html">Past</a>
+				</div></li>
+			<li><a href="Artists.html">Artists</a></li>
+			<li><a href="News.html">News</a></li>
+			<li><a href="Contact.html">Contacts</a></li>
+			<li><a href="Donations.html">Donations</a></li>
+		</center></ul>
+	</div>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		function slider() {
+			$(".slider #1").show("fade", 500);
+		}
+	</script>
+
+</head>
+
+<body onload="slider();">
+
+	<div class="slider">
+		<div id="show">
+			<center>
+			<iframe id="1" src="https://player.vimeo.com/video/187490952" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+			</iframe>
+			<img id="2" src="images/blue show9.jpg" border="0" />
+			<img id="3" src="images/blue show10.jpg" border="0" />
+			<img id="4" src="images/blue show11.jpg" border="0" />
+			<img id="5" src="images/blue show1.jpeg" border="0" />
+			</center>
+		</div>
+		<div id="slidenav">
+			<div id="slidenav_Middle">
+				<img id="LeftArrow" src="images/blueleftarrow.png" />
+				<img id="RightArrow" src="images/bluerightarrow.png" />
+			</div>
+		</div>
+	</div>
+
+
+</body> 
+
+
+<footer>© 2016 by Blue Tape Society</footer>
+</html>
