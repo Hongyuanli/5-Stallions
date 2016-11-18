@@ -34,7 +34,67 @@
 </head>
 
 <body>
+	<div class="slider">
+		<div id="show">
+			<center>
+			<iframe id="1" src="https://player.vimeo.com/video/187490952" class="slide" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+			</iframe>
+			<img id="2" src="images/blue show9.jpg" class="slide" border="0" />
+			<img id="3" src="images/blue show10.jpg" class="slide" border="0" />
+			<img id="4" src="images/blue show11.jpg" class="slide" border="0" />
+			<img id="5" src="images/blue show1.jpeg" class="slide" border="0" />
+			</center>
+		</div>
+		<img id="LeftArrow" data-direction="left" src="images/blueleftarrow.png" />
+		<img id="RightArrow" data-direction="right" src="images/bluerightarrow.png" />
 
+
+	</div>
+
+	
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// Initially show the first slide
+		$(".slider #1").show("fade", 500);
+
+		var slides = $(".slide");
+
+		$("#RightArrow, #LeftArrow").on("click", function(){
+			var self = $(this),
+			currentSlide,
+			nextSlide;
+
+			// loop through slides to figure out which one is currently visible
+			$.each(slides, function(i, val){	
+				if($(val).is(":visible")){
+					// Get the index of the visible slide
+					currentSlide = $(val).index();
+				}
+			});
+
+			nextSlide = self.attr("data-direction") == "right" ? currentSlide + 1 : currentSlide - 1;
+
+			if(nextSlide < 0){
+				// default to last slide
+				nextSlide = slides.length -1;
+			} else if (nextSlide > slides.length -1){
+				// default to first slide
+				nextSlide = 0;
+			}
+
+			console.log(nextSlide);
+			console.log($($(".slide")[nextSlide]));
+
+			// Hide all slides and then show the next slide that should appear
+			$(".slide").hide();
+			$($(".slide")[nextSlide]).show();
+		});
+	});
+</script>
 
 </body> 
 
