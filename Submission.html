@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<div id="SocialMedia">
+		<a href="https://twitter.com/bluetapesociety" target="_blank"><img src="images/twitter.png"/></a>
+		<a href="https://www.instagram.com/bluetapesociety/" target="_blank"><img src="images/insta.png" /></a>
+		<a href="https://www.facebook.com/bluetapesociety/" target="_blank"><img src="images/facebook.png"/></a>
+	</div>
+<head>
+	<link type="text/css" rel="stylesheet" href="MainCss.css"/>
+
+	<title>Blue Tape Society</title>
+
+	<center><a href="home.html"><img src="images/logo.png"/></a></center>
+</head>
+
+<div id="NavBar">
+	<center><ul>
+		<li><a href="About.html">About</a></li>
+		<li><a href="Submission.html">Submission</a></li>
+		<li class="dropdown"><a href="Events.html">Events</a>
+			<div class="dropdown-content">
+				<a href="Upcoming.html">Upcoming</a>
+				<a href="Past.html">Past</a>
+			</div></li>
+		<li><a href="Artists.html">Artists</a></li>
+		<li><a href="News.html">News</a></li>
+		<li><a href="Contact.html">Contacts</a></li>
+		<li><a href="Donations.html">Donations</a></li>
+	</center></ul>
+</div>
+
+<body>
+
+
+    <form id="gforum" method="POST" class="pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbwFaftwA8aBLTRj1VmfeLZE6aUTdMRLybdD_dDsSkL7XfzH3FEk/exec">
+
+
+<fieldset class="pure-group">
+      <label for="name">Name: </label>
+      <input id="name" name="name" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="webpage">Webpage: </label>
+      <input id="webpage" name="webpage"
+      placeholder="Website of your page...">
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="school">School: </label>
+      <input id="school" name="school"
+      placeholder="Your school name...">
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="dimension">Artwork dimensions: </label>
+      <input id="dimension" name="dimension" placeholder="  " />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="sell">Want to sell?: </label>
+      <input id="sell" name="sell" placeholder="yes or no" />
+    </fieldset>
+
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+
+  <!-- Customise the Thankyou Message People See when they submit the form:
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>-->
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+
+
+
+
+
+</body>
+
+<footer>© 2016 by Blue Tape Society</footer>
+</html>
