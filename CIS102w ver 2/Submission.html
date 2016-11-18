@@ -34,28 +34,64 @@
 </head>
 
 <body>
-
-<form id="Content_Form"; action="submission.html">
-<fieldset>
-	<center><legend>Want to be included in the upcoming art gallery?:</legend></center>
-  <br>Name:<br>
-  <input type="text" name="name">
-  <br>Webpage:<br>
-  <input type="text" name="webpage" >
-  <br>School:<br>
-  <input type="text" name="school" >
-  <br>Artwork dimensions:<br>
-  <input type="text" name="artwork dimensions" >
-  <br>Want to sell?:<br>
-  <input type="text" name="want to sell?">
-  <br>Photo of artwork:<br>
-  <input type="text" name="photo of artwork"><br>
-  <br><input type="submit" value="Submit"><br>
-	</legend>
-</fieldset>
-</form>
-
-</body> 
-
+ 
+ 
+     <form id="Content_Form" method="POST" class="pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbwFaftwA8aBLTRj1VmfeLZE6aUTdMRLybdD_dDsSkL7XfzH3FEk/exec">
+    <center><legend>Want to be included in the upcoming art gallery?:</legend></center>
+ <fieldset class="pure-group">
+       <label for="name">Name: </label>
+       <input id="name" name="name" />
+     </fieldset>
+ 
+     <fieldset class="pure-group">
+       <label for="webpage">Webpage: </label>
+       <input id="webpage" name="webpage"
+       placeholder="Website of your page...">
+     </fieldset>
+ 
+     <fieldset class="pure-group">
+       <label for="school">School: </label>
+       <input id="school" name="school"
+       placeholder="Your school name...">
+     </fieldset>
+ 
+     <fieldset class="pure-group">
+       <label for="email"><em>Your</em> Email Address:</label>
+       <input id="email" name="email" type="email" value=""
+       required placeholder="your.name@email.com"/>
+       <span id="email-invalid" style="visibility:hidden">
+         Must be a valid email address</span>
+     </fieldset>
+ 
+     <fieldset class="pure-group">
+       <label for="dimension">Artwork dimensions: </label>
+       <input id="dimension" name="dimension" placeholder="  " />
+     </fieldset>
+ 
+     <fieldset class="pure-group">
+       <label for="sell">Want to sell?: </label>
+       <input id="sell" name="sell" placeholder="yes or no" />
+     </fieldset>
+ 
+     <button class="button-success pure-button button-xlarge">
+       <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+ 
+   </form>
+ 
+   <!-- Customise the Thankyou Message People See when they submit the form:
+   <div style="display:none;" id="thankyou_message">
+     <h2><em>Thanks</em> for contacting us!
+       We will get back to you soon!</h2>
+   </div>-->
+ 
+   <!-- Submit the Form to Google Using "AJAX" -->
+   <script data-cfasync="false" type="text/javascript"
+   src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+   <!-- <script data-cfasync="false" type="text/javascript"
+   src="/form-submission-handler.js"></script> -->
+ 
+ 
+</body>
+ 
 <footer>© 2016 by Blue Tape Society</footer>
-</html>
+</html> 
