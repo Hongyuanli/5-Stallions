@@ -31,6 +31,44 @@ h2 {
 	font-family:Arial;
 }
 
+/* for Slideshow  */
+.slider {
+    width: 850px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(images/blueloadergif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#show img, iframe {
+    display: none;
+    transition: 1s;
+}
+
+#LeftArrow, #RightArrow {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    z-index: 1;
+    top:50%;
+}
+
+#LeftArrow {
+    left: 0px;
+}
+
+#RightArrow {
+    right: 0px;
+}
+
+#LeftArrow:hover, #RightArrow:hover {
+    opacity: 0.8;
+}
+
+
 /** For social media div **/
 
 #SocialMedia img {
