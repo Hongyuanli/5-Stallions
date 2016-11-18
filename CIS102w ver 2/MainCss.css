@@ -48,9 +48,10 @@ h2 {
 }
 
 #Content_Form {
+	text-align: center;
 	font-family:Arial;
-	margin-left: 500px;
-	margin-right: 500px;
+	margin-left: 800px;
+	margin-right: 800px;
 }
 
 /** Contact List ID **/
