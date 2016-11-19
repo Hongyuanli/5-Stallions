@@ -78,50 +78,6 @@ h2 {
     height: 25px;
 }
 
-/** for the space in the pictures and border **/
-.a {
-	padding:0;
-}
-
-/** table sizing for the space between the shows**/
-.table1{
-	margin-top: 100px;
-}
-
-.table2{
-	margin-top: 150px;
-}
-
-.table3{
-	margin-top: 200px;
-}
-
-
-/** for the hover over picture with name code **/
-div.img {
-	border: 1px solid #ccc;
-    margin: 10px;
-    float: left;
-    width: 220px;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-	width: auto;
-    height: auto;
-}
-
-div.desc {
-    padding: 5px;
-    text-align: center;
-}
-
-/** footer code**/
-
-
 
 /** For P tags **/
 
@@ -182,3 +138,43 @@ div.desc {
 
 /** Artists Page**/
 
+/** for the space in the pictures and border **/
+.a {
+	padding:0;
+}
+
+/** table sizing for the space between the shows**/
+.table1{
+	margin-top: 100px;
+}
+
+.table2{
+	margin-top: 150px;
+}
+
+.table3{
+	margin-top: 200px;
+}
+
+
+/** for the hover over picture with name code **/
+div.img {
+	border: 1px solid #ccc;
+    margin: 10px;
+    float: left;
+    width: 220px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+	width: auto;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
