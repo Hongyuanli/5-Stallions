@@ -47,7 +47,6 @@ h2 {
 
 #show img, iframe {
     display: none;
-    transition: 1s;
 }
 
 #LeftArrow, #RightArrow {
