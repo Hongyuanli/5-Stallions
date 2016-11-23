@@ -1,6 +1,6 @@
 a {
 	text-decoration:none;
-	color:black;
+	color: #A9A9A9;
 	font-family: Sans-Serif;
 	font-size:22px;
 	padding-left:12px;
@@ -11,7 +11,7 @@ a {
 footer {
     padding: 1em;
     color: #A9A9A9;
-    font-family: "Sans Serif", Times, Helvetica;
+    font-family: Sans-Serif;
     text-align: center;
     margin-top: 50px;
     margin-left: 625px;
@@ -21,12 +21,12 @@ footer {
 
 h1 {
 	color:black;
-	font-family: "Sans Serif", Times, Helvetica;
+	font-family:Sans-Serif; 
 }
 
 h2 {
 	color:black;
-	font-family: "Sans Serif", Times, Helvetica;
+	font-family:Sans-Serif;
 }
 
 #body {
@@ -82,7 +82,7 @@ h2 {
 
 #Content_Copy {
 	text-align: center;
-	font-family: "Sans Serif", Times, Helvetica;
+	font-family: Sans-Serif;
 	margin-left: 400px;
 	margin-right: 400px;
 	margin-top: 50px;
@@ -90,7 +90,7 @@ h2 {
 
 #Content_Form {
 	text-align: center;
-	font-family: "Sans Serif", Times, Helvetica;
+	font-family: Sans-Serif;
 	margin-left: 650px;
 	margin-right: 650px;
 	margin-top: 50px;
@@ -98,7 +98,7 @@ h2 {
 
 #Content_Form2 {
 	text-align: center;
-	font-family: "Sans Serif", Times, Helvetica;
+	font-family: Sans-Serif;
 	margin-left: 500px;
 	margin-right: 500px;
 }
@@ -114,7 +114,7 @@ h2 {
     background-color:none;
     padding: 5px;
     text-align: center;
-    font-family: "Sans Serif", Times, Helvetica;
+    font-family: Sans-Serif;
 }
 
 
@@ -133,7 +133,7 @@ h2 {
     padding: 0;
     overflow: hidden;
     background-color:none;
-    font-family: "Sans Serif", Times, Helvetica;
+    font-family: Sans-Serif;
     color: #A9A9A9; 
 }
 
