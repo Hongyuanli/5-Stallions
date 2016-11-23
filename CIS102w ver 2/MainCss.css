@@ -1,8 +1,8 @@
 a {
 	text-decoration:none;
 	color:black;
-	font-family: Sans Serif, Times, Helvetica;
-	font-size:15px;
+	font-family: Sans-Serif, Times, Helvetica;
+	font-size:22px;
 	padding-left:12px;
 	padding-right:12px;
 }
@@ -11,7 +11,7 @@ a {
 footer {
     padding: 1em;
     color: #A9A9A9;
-	font-family: "Sans Serif", Times, Helvetica;
+    font-family: "Sans Serif", Times, Helvetica;
     text-align: center;
     margin-top: 50px;
     margin-left: 625px;
