@@ -10,12 +10,23 @@ a {
 
 footer {
     padding: 1em;
-    color: #A9A9A9;
+    color: #A9A9A9
     font-family: Sans-Serif;
     text-align: center;
     margin-top: 50px;
     margin-left: 625px;
     margin-right: 625px;
+}
+
+#CopyRight {
+	color: #A9A9A9;
+	font-family: Sans-Serif;
+	text-align: center;
+	margin top: 50px;
+	margin-Left: 625px;
+	margin-right: 625px
+	font-size: 10px
+		
 }
 
 
