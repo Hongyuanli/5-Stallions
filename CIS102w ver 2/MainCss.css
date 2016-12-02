@@ -83,6 +83,12 @@ h2 {
 
 /** For social media div **/
 
+#SocialMedia {
+    border-radius: 2px;
+    background-color: #475875;
+    margin-right: 1745px;
+}
+
 #SocialMedia img {
     width: 25px;
     height: 25px;
