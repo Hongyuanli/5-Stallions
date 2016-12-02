@@ -1,16 +1,21 @@
 ta {
 	text-decoration:none;
-    color: #67707f;
-    font-family: century gothic, Verdana, Times, Arial;
+        color: #475875;
+        font-family: century gothic, Verdana, Times, Arial;
 	font-size:25px;
 	padding-left:12px;
 	padding-right:12px;
 }
 
+body{
+	color: #475875;
+	font-family: century gothic, Verdana, Times, Arial;
+}
+
 
 footer {
     padding: 1em;
-    color: #67707f;
+    color: #475875;
     font-family: century gothic, Verdana, Times, Arial;
     text-align: center;
     margin-top: 50px;
