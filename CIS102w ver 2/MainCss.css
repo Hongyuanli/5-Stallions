@@ -10,6 +10,7 @@ a {
 body{
 	color: #475875;
 	font-family: century gothic, Verdana, Times, Arial;
+	background-color: #f0eceb;
 }
 
 
@@ -34,7 +35,14 @@ h2 {
 
 #body {
     margin-top: 50px;
+    margin: 0 auto;
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid #808080;
 }
+
 
 
 #thankyou_message {
@@ -98,11 +106,9 @@ h2 {
 /** For P tags **/
 
 #Content_Copy {
-	text-align: center;
     font-family: century gothic, Verdana, Times, Arial;
-	margin-left: 400px;
-	margin-right: 400px;
-	margin-top: 50px;
+	margin-top: 5px;
+	
 }
 
 #Content_Form {
