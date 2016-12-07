@@ -10,7 +10,7 @@ a {
 body{
 	color: #475875;
 	font-family: century gothic, Verdana, Times, Arial;
-	background-color: #f0eceb;
+	background-color: #F7F6F6;
 }
 
 
@@ -39,7 +39,7 @@ h2 {
     background-color: white;
     width: 50%;
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 5px;
     border: 1px solid #808080;
 }
 
