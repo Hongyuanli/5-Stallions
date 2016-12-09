@@ -58,7 +58,7 @@ h2 {
 
 /* for Slideshow  */
 .slider {
-    width: 850px;
+    width: auto;
     height: 500px;
     overflow: hidden;
     margin: 0 auto;
@@ -81,11 +81,11 @@ h2 {
 }
 
 #LeftArrow {
-    left: 0px;
+    left: -10px;
 }
 
 #RightArrow {
-    right: 0px;
+    right: -10px;
 }
 
 #LeftArrow:hover, #RightArrow:hover {
