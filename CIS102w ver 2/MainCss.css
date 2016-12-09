@@ -98,7 +98,13 @@ h2 {
 #SocialMedia {
     border-radius: 2px;
     background-color: #475875;
-    margin-right: 1425px;
+    margin-right: 1419px;
+}
+
+#SocialMedia2 {
+    border-radius: 2px;
+    background-color: #475875;
+    margin-right: 1436px;
 }
 
 #SocialMedia img {
@@ -106,6 +112,10 @@ h2 {
     height: 25px;
 }
 
+#SocialMedia2 img {
+    width: 25px;
+    height: 25px;
+}
 
 /** For P tags **/
 
